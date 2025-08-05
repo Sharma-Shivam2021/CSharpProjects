@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C# Apps\\C#\\InheritanceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|e:\\c# apps\\c#\\inheritanceapp\\inheritanceapp\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|solutionrelative:inheritanceapp\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|e:\\c# apps\\c#\\inheritanceapp\\inheritanceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|solutionrelative:inheritanceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|e:\\c# apps\\c#\\inheritanceapp\\inheritanceapp\\constructorinheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|solutionrelative:inheritanceapp\\constructorinheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|e:\\c# apps\\c#\\inheritanceapp\\inheritanceapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410B93E-FC62-4A44-BB2F-2F558CAF343B}|InheritanceApp\\InheritanceApp.csproj|solutionrelative:inheritanceapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\Animal.cs",
+              "RelativeDocumentMoniker": "InheritanceApp\\Animal.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\Animal.cs",
+              "RelativeToolTip": "InheritanceApp\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:50:51.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\Account.cs",
+              "RelativeDocumentMoniker": "InheritanceApp\\Account.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\Account.cs",
+              "RelativeToolTip": "InheritanceApp\\Account.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:31:01.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConstructorInheritance.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\ConstructorInheritance.cs",
+              "RelativeDocumentMoniker": "InheritanceApp\\ConstructorInheritance.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\ConstructorInheritance.cs",
+              "RelativeToolTip": "InheritanceApp\\ConstructorInheritance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:52:46.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\Program.cs",
+              "RelativeDocumentMoniker": "InheritanceApp\\Program.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\InheritanceApp\\InheritanceApp\\Program.cs",
+              "RelativeToolTip": "InheritanceApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:03:51.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

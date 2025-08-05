@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91708\\Desktop\\Shivam\\Code\\C#\\Loop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D9624FC-E508-4B12-9AF0-40D10824BFB7}|Loop\\Loop.csproj|c:\\users\\91708\\desktop\\shivam\\code\\c#\\loop\\loop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D9624FC-E508-4B12-9AF0-40D10824BFB7}|Loop\\Loop.csproj|solutionrelative:loop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91708\\Desktop\\Shivam\\Code\\C#\\Loop\\Loop\\Program.cs",
+              "RelativeDocumentMoniker": "Loop\\Program.cs",
+              "ToolTip": "C:\\Users\\91708\\Desktop\\Shivam\\Code\\C#\\Loop\\Loop\\Program.cs*",
+              "RelativeToolTip": "Loop\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:39:58.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

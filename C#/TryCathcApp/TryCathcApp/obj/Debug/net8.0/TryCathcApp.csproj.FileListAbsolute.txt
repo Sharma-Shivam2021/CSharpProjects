@@ -1,0 +1,14 @@
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\bin\Debug\net8.0\TryCathcApp.exe
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\bin\Debug\net8.0\TryCathcApp.deps.json
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\bin\Debug\net8.0\TryCathcApp.runtimeconfig.json
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\bin\Debug\net8.0\TryCathcApp.dll
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\bin\Debug\net8.0\TryCathcApp.pdb
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\TryCathcApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\TryCathcApp.AssemblyInfoInputs.cache
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\TryCathcApp.AssemblyInfo.cs
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\TryCathcApp.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\TryCathcApp.dll
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\refint\TryCathcApp.dll
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\TryCathcApp.pdb
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\TryCathcApp.genruntimeconfig.cache
+E:\C# Apps\C#\TryCathcApp\TryCathcApp\obj\Debug\net8.0\ref\TryCathcApp.dll

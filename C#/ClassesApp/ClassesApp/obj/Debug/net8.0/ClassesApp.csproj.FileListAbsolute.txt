@@ -1,0 +1,14 @@
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\bin\Debug\net8.0\ClassesApp.exe
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\bin\Debug\net8.0\ClassesApp.deps.json
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\bin\Debug\net8.0\ClassesApp.runtimeconfig.json
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\bin\Debug\net8.0\ClassesApp.dll
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\bin\Debug\net8.0\ClassesApp.pdb
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ClassesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ClassesApp.AssemblyInfoInputs.cache
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ClassesApp.AssemblyInfo.cs
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ClassesApp.csproj.CoreCompileInputs.cache
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ClassesApp.dll
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\refint\ClassesApp.dll
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ClassesApp.pdb
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ClassesApp.genruntimeconfig.cache
+C:\Users\91708\Desktop\Shivam\Code\C#\ClassesApp\ClassesApp\obj\Debug\net8.0\ref\ClassesApp.dll

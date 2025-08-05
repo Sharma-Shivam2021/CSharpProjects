@@ -1,0 +1,14 @@
+E:\C# Apps\C#\QuizApp\QuizApp\bin\Debug\net8.0\QuizApp.exe
+E:\C# Apps\C#\QuizApp\QuizApp\bin\Debug\net8.0\QuizApp.deps.json
+E:\C# Apps\C#\QuizApp\QuizApp\bin\Debug\net8.0\QuizApp.runtimeconfig.json
+E:\C# Apps\C#\QuizApp\QuizApp\bin\Debug\net8.0\QuizApp.dll
+E:\C# Apps\C#\QuizApp\QuizApp\bin\Debug\net8.0\QuizApp.pdb
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\QuizApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\QuizApp.AssemblyInfoInputs.cache
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\QuizApp.AssemblyInfo.cs
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\QuizApp.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\QuizApp.dll
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\refint\QuizApp.dll
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\QuizApp.pdb
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\QuizApp.genruntimeconfig.cache
+E:\C# Apps\C#\QuizApp\QuizApp\obj\Debug\net8.0\ref\QuizApp.dll
