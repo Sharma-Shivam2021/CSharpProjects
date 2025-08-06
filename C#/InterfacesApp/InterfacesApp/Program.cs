@@ -1,25 +1,103 @@
 ﻿/*
- * An interface in C# is a contract that defines a set of 
- * members (methods, properties, events, or indexers) 
- * that implementing classes or structs must provide. 
- * Interfaces do not contain implementation, only the 
- * signatures. They enable abstraction, polymorphism, 
- * and decoupling in your code.
+ * Decoupling: The Application class depends on the 
+ * ILogger interface rather than specific implementations
+ * like FileLogger or DatabasLogger.
+ * This means you ca easily switch the logging mechanism without changing
+ * the Application class  
  */
 
-using InterfacesApp;
+//public interface ILogger
+//{
+//    void Log(string message);
+//}
+
+//public class FileLogger : ILogger
+//{
+//    public void Log(string message)
+//    {
+//        // @ sign is used to denote a verbatim string literally
+//        string directoryPath = @"C:\Logs";
+//        string filePath = System.IO.Path.Combine(directoryPath, "log.txt");
+//        if (!Directory.Exists(directoryPath))
+//        {
+//            Directory.CreateDirectory(directoryPath);
+//        }
+
+//        File.AppendAllText(filePath, message + "\n");
+//    }
+//}
+
+//public class DatabaseLogger : ILogger
+//{
+//    public void Log(string msg)
+//    {
+//        // Implement the logic to log a messsage to a database
+//        Console.WriteLine($"Logging to databse: {msg}");
+//    }
+//}
+
+
+//public class Application
+//{
+//    private readonly ILogger _logger;
+
+//    public Application(ILogger logger)
+//    {
+//        _logger = logger;
+//    }
+
+//    public void DoWork()
+//    {
+//        _logger.Log("Work Started");
+//        // Do the work
+//        _logger.Log("Work completed");
+//    }
+//}
+
+//using static System.Net.Mime.MediaTypeNames;
+
+//ILogger fileLogger = new FileLogger();
+//Application app = new Application(fileLogger);
+//app.DoWork();
+
+//ILogger dbLogger = new DatabaseLogger();
+//app = new Application(dbLogger);
+//app.DoWork();
+
+using System.Drawing;
 
 internal class Program
 {
-    
+
     static void Main(string[] args)
     {
-        IPaymentProcessor creditCardProcessor=new CreditCardProcessor();
-        PaymentService paymentService= new PaymentService(creditCardProcessor);
-        paymentService.ProcessOrderPayment(12);
+        MultiFunctionPrinter printer = new MultiFunctionPrinter();
+        printer.Print();
+        printer.Scan();
+    }
+}
 
-        IPaymentProcessor payPapProcessor=new PaypalProcessor();
-        PaymentService paypal=new PaymentService(payPapProcessor);
-        paypal.ProcessOrderPayment(13);
+public interface IPrintable
+{
+    void Print();
+}
+
+public interface IScannable
+{
+    void Scan();
+}
+
+public class MultiFunctionPrinter : IPrintable, IScannable
+{
+    public void Print()
+    {
+        Console.WriteLine("Printing Document");
+        //throw new NotImplementedException();
+    }
+
+    public void Scan()
+    {
+        Console.WriteLine("Scanning Document");
+        //throw new NotImplementedException();
     }
 }
