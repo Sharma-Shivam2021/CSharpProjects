@@ -7,11 +7,19 @@
  * and decoupling in your code.
  */
 
+using InterfacesApp;
+
 internal class Program
 {
     
     static void Main(string[] args)
     {
+        IPaymentProcessor creditCardProcessor=new CreditCardProcessor();
+        PaymentService paymentService= new PaymentService(creditCardProcessor);
+        paymentService.ProcessOrderPayment(12);
 
+        IPaymentProcessor payPapProcessor=new PaypalProcessor();
+        PaymentService paypal=new PaymentService(payPapProcessor);
+        paypal.ProcessOrderPayment(13);
     }
 }

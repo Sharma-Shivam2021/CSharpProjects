@@ -1,0 +1,15 @@
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\bin\Debug\net8.0\InterfacesApp.exe
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\bin\Debug\net8.0\InterfacesApp.deps.json
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\bin\Debug\net8.0\InterfacesApp.runtimeconfig.json
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\bin\Debug\net8.0\InterfacesApp.dll
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\bin\Debug\net8.0\InterfacesApp.pdb
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.AssemblyInfoInputs.cache
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.AssemblyInfo.cs
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.sourcelink.json
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.dll
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\refint\InterfacesApp.dll
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.pdb
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\InterfacesApp.genruntimeconfig.cache
+E:\C# Apps\C#\InterfacesApp\InterfacesApp\obj\Debug\net8.0\ref\InterfacesApp.dll
