@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C# Apps\\C#\\RegExExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15ACD0DC-BF95-4747-8D29-C7DA02E55FCD}|RegExExample\\RegExExample.csproj|e:\\c# apps\\c#\\regexexample\\regexexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15ACD0DC-BF95-4747-8D29-C7DA02E55FCD}|RegExExample\\RegExExample.csproj|solutionrelative:regexexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\RegExExample\\RegExExample\\Program.cs",
+              "RelativeDocumentMoniker": "RegExExample\\Program.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\RegExExample\\RegExExample\\Program.cs",
+              "RelativeToolTip": "RegExExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:28:27.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

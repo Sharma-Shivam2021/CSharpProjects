@@ -1,0 +1,15 @@
+E:\C# Apps\C#\StructsApp\StructsApp\bin\Debug\net8.0\StructsApp.exe
+E:\C# Apps\C#\StructsApp\StructsApp\bin\Debug\net8.0\StructsApp.deps.json
+E:\C# Apps\C#\StructsApp\StructsApp\bin\Debug\net8.0\StructsApp.runtimeconfig.json
+E:\C# Apps\C#\StructsApp\StructsApp\bin\Debug\net8.0\StructsApp.dll
+E:\C# Apps\C#\StructsApp\StructsApp\bin\Debug\net8.0\StructsApp.pdb
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.AssemblyInfoInputs.cache
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.AssemblyInfo.cs
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.sourcelink.json
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.dll
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\refint\StructsApp.dll
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.pdb
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\StructsApp.genruntimeconfig.cache
+E:\C# Apps\C#\StructsApp\StructsApp\obj\Debug\net8.0\ref\StructsApp.dll

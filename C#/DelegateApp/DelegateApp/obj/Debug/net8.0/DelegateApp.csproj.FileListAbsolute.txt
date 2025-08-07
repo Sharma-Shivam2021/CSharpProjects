@@ -1,0 +1,15 @@
+E:\C# Apps\C#\DelegateApp\DelegateApp\bin\Debug\net8.0\DelegateApp.exe
+E:\C# Apps\C#\DelegateApp\DelegateApp\bin\Debug\net8.0\DelegateApp.deps.json
+E:\C# Apps\C#\DelegateApp\DelegateApp\bin\Debug\net8.0\DelegateApp.runtimeconfig.json
+E:\C# Apps\C#\DelegateApp\DelegateApp\bin\Debug\net8.0\DelegateApp.dll
+E:\C# Apps\C#\DelegateApp\DelegateApp\bin\Debug\net8.0\DelegateApp.pdb
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.AssemblyInfoInputs.cache
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.AssemblyInfo.cs
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.sourcelink.json
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.dll
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\refint\DelegateApp.dll
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.pdb
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\DelegateApp.genruntimeconfig.cache
+E:\C# Apps\C#\DelegateApp\DelegateApp\obj\Debug\net8.0\ref\DelegateApp.dll
