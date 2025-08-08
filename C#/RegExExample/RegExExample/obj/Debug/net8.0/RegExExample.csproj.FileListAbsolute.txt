@@ -1,0 +1,15 @@
+E:\C# Apps\C#\RegExExample\RegExExample\bin\Debug\net8.0\RegExExample.exe
+E:\C# Apps\C#\RegExExample\RegExExample\bin\Debug\net8.0\RegExExample.deps.json
+E:\C# Apps\C#\RegExExample\RegExExample\bin\Debug\net8.0\RegExExample.runtimeconfig.json
+E:\C# Apps\C#\RegExExample\RegExExample\bin\Debug\net8.0\RegExExample.dll
+E:\C# Apps\C#\RegExExample\RegExExample\bin\Debug\net8.0\RegExExample.pdb
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.AssemblyInfoInputs.cache
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.AssemblyInfo.cs
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.sourcelink.json
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.dll
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\refint\RegExExample.dll
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.pdb
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\RegExExample.genruntimeconfig.cache
+E:\C# Apps\C#\RegExExample\RegExExample\obj\Debug\net8.0\ref\RegExExample.dll
