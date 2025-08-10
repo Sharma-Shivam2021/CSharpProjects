@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C# Apps\\C#\\CurrencyConverter_Static\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D57804C0-FDC0-4D18-8429-1A4B0BE4FB92}|CurrencyConverter_Static\\CurrencyConverter_Static.csproj|e:\\c# apps\\c#\\currencyconverter_static\\currencyconverter_static\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D57804C0-FDC0-4D18-8429-1A4B0BE4FB92}|CurrencyConverter_Static\\CurrencyConverter_Static.csproj|solutionrelative:currencyconverter_static\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57804C0-FDC0-4D18-8429-1A4B0BE4FB92}|CurrencyConverter_Static\\CurrencyConverter_Static.csproj|e:\\c# apps\\c#\\currencyconverter_static\\currencyconverter_static\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57804C0-FDC0-4D18-8429-1A4B0BE4FB92}|CurrencyConverter_Static\\CurrencyConverter_Static.csproj|solutionrelative:currencyconverter_static\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\CurrencyConverter_Static\\CurrencyConverter_Static\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CurrencyConverter_Static\\MainWindow.xaml",
+              "ToolTip": "E:\\C# Apps\\C#\\CurrencyConverter_Static\\CurrencyConverter_Static\\MainWindow.xaml",
+              "RelativeToolTip": "CurrencyConverter_Static\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T18:01:10.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\CurrencyConverter_Static\\CurrencyConverter_Static\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter_Static\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\CurrencyConverter_Static\\CurrencyConverter_Static\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CurrencyConverter_Static\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T18:01:08.247Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

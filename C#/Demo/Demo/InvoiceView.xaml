@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Demo.InvoiceView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Demo"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Mock Invoice Data" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+        <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed est dolor. Sed in mauris dui. Cras scelerisque, velit vitae vestibulum sagittis, massa tortor dignissim dolor, quis eleifend ipsum felis ac orci. Maecenas nec sem faucibus, placerat tortor laoreet, iaculis velit. Integer tempor a mauris sed pulvinar. Donec nec purus nunc. Vivamus eu ipsum convallis, tempor lacus at, elementum augue. Praesent ultricies id orci nec sollicitudin. Suspendisse cursus velit turpis, lobortis suscipit erat finibus id. Sed cursus erat ac ex ultrices, a consectetur ipsum pharetra.
+
+Nam ut maximus magna. Aliquam malesuada ullamcorper nunc. Quisque molestie vestibulum volutpat. In id nisl accumsan, gravida turpis eget, efficitur velit. Nam magna odio, tempor et quam eu, placerat accumsan ante. Quisque fringilla posuere faucibus. Vestibulum id nibh dui.
+
+Fusce sit amet neque semper risus interdum ullamcorper. Morbi facilisis pretium dui sit amet semper. Etiam nunc mi, feugiat sit amet sapien vitae, dignissim aliquet turpis. Nullam luctus posuere tortor, nec tincidunt purus molestie eu. Nam vitae dictum ex, in vestibulum lacus. Praesent lacinia metus vel dui pellentesque ullamcorper. Quisque est nisi, aliquam eget cursus id, ultricies quis orci. Duis et nisl placerat, malesuada ipsum nec, condimentum odio. Donec ullamcorper pharetra neque non iaculis. Curabitur ante enim, euismod sed nulla eu, ullamcorper vehicula mi. Duis in malesuada felis. Suspendisse iaculis pharetra purus. Suspendisse ultricies laoreet ex, eu dignissim ipsum mattis ac. Nullam porttitor elit condimentum dignissim semper. Vestibulum mollis metus risus, ac venenatis velit condimentum ut.
+
+Aliquam semper rhoncus massa, ullamcorper sodales lacus viverra eu. Phasellus faucibus est in neque suscipit ultrices. Proin non hendrerit magna, sed varius est. Integer consectetur justo scelerisque, dignissim lacus eget, ultricies diam. Vestibulum eros magna, eleifend id risus sed, pretium consectetur nibh. In id augue purus. Nulla auctor egestas est, id porta libero tincidunt non. Aenean quam nunc, sodales a leo vitae, accumsan scelerisque mauris.
+
+Vestibulum sed nulla sit amet diam posuere tempor. Donec ut iaculis urna. Mauris ultrices imperdiet ante sed imperdiet. Maecenas sagittis lectus ut arcu tristique condimentum. Nam nisi arcu, sollicitudin a ipsum sit amet, dignissim convallis dolor. Curabitur mollis lorem est. Nunc ultricies sit amet est ac cursus. Quisque eu augue id tortor dignissim varius." TextWrapping="Wrap" Grid.Row="3" Grid.Column="1"/>
+    </Grid>
+</UserControl>

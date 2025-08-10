@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C# Apps\\C#\\LoginApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|e:\\c# apps\\c#\\loginapp\\loginapp\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|e:\\c# apps\\c#\\loginapp\\loginapp\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|e:\\c# apps\\c#\\loginapp\\loginapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|e:\\c# apps\\c#\\loginapp\\loginapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{50185505-B462-4317-AA8D-E92136924C9C}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\LoginView.xaml",
+              "RelativeDocumentMoniker": "LoginApp\\LoginView.xaml",
+              "ToolTip": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\LoginView.xaml",
+              "RelativeToolTip": "LoginApp\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T17:04:17.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "LoginApp\\LoginView.xaml.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\LoginView.xaml.cs",
+              "RelativeToolTip": "LoginApp\\LoginView.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:03:14.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LoginApp\\MainWindow.xaml",
+              "ToolTip": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\MainWindow.xaml",
+              "RelativeToolTip": "LoginApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T17:00:28.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LoginApp\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\C# Apps\\C#\\LoginApp\\LoginApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LoginApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:00:28.871Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
