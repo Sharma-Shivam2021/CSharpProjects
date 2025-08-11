@@ -9,8 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="image.png" />
-    <None Remove="Images\image.png" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
