@@ -1,0 +1,15 @@
+E:\C# Apps\C#\LinqExample\LinqExample\bin\Debug\net8.0\LinqExample.exe
+E:\C# Apps\C#\LinqExample\LinqExample\bin\Debug\net8.0\LinqExample.deps.json
+E:\C# Apps\C#\LinqExample\LinqExample\bin\Debug\net8.0\LinqExample.runtimeconfig.json
+E:\C# Apps\C#\LinqExample\LinqExample\bin\Debug\net8.0\LinqExample.dll
+E:\C# Apps\C#\LinqExample\LinqExample\bin\Debug\net8.0\LinqExample.pdb
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.AssemblyInfoInputs.cache
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.AssemblyInfo.cs
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.sourcelink.json
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.dll
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\refint\LinqExample.dll
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.pdb
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\LinqExample.genruntimeconfig.cache
+E:\C# Apps\C#\LinqExample\LinqExample\obj\Debug\net8.0\ref\LinqExample.dll

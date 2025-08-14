@@ -2,50 +2,96 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "MahApps.Metro.IconPacks/6.0.0": {
+      "Azure.Core/1.38.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.BootstrapIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.BoxIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.CircumIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Codicons": "6.0.0",
-          "MahApps.Metro.IconPacks.Coolicons": "6.0.0",
-          "MahApps.Metro.IconPacks.Core": "6.0.0",
-          "MahApps.Metro.IconPacks.Entypo": "6.0.0",
-          "MahApps.Metro.IconPacks.EvaIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.FeatherIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.FileIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.FontAwesome": "6.0.0",
-          "MahApps.Metro.IconPacks.FontAwesome5": "6.0.0",
-          "MahApps.Metro.IconPacks.FontAwesome6": "6.0.0",
-          "MahApps.Metro.IconPacks.Fontaudio": "6.0.0",
-          "MahApps.Metro.IconPacks.Fontisto": "6.0.0",
-          "MahApps.Metro.IconPacks.ForkAwesome": "6.0.0",
-          "MahApps.Metro.IconPacks.GameIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Ionicons": "6.0.0",
-          "MahApps.Metro.IconPacks.JamIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Lucide": "6.0.0",
-          "MahApps.Metro.IconPacks.Material": "6.0.0",
-          "MahApps.Metro.IconPacks.MaterialDesign": "6.0.0",
-          "MahApps.Metro.IconPacks.MaterialLight": "6.0.0",
-          "MahApps.Metro.IconPacks.MemoryIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Microns": "6.0.0",
-          "MahApps.Metro.IconPacks.MingCuteIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Modern": "6.0.0",
-          "MahApps.Metro.IconPacks.MynaUIIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Octicons": "6.0.0",
-          "MahApps.Metro.IconPacks.PhosphorIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.PicolIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.PixelartIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.RPGAwesome": "6.0.0",
-          "MahApps.Metro.IconPacks.RadixIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.RemixIcon": "6.0.0",
-          "MahApps.Metro.IconPacks.SimpleIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Typicons": "6.0.0",
-          "MahApps.Metro.IconPacks.Unicons": "6.0.0",
-          "MahApps.Metro.IconPacks.VaadinIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.WeatherIcons": "6.0.0",
-          "MahApps.Metro.IconPacks.Zondicons": "6.0.0"
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "System.ClientModel": "1.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.1",
+          "System.Memory.Data": "1.0.2",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Text.Encodings.Web": "4.7.2",
+          "System.Text.Json": "4.7.2",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net6.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Identity/1.11.4": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.38.0",
+          "Microsoft.Identity.Client": "4.61.3",
+          "Microsoft.Identity.Client.Extensions.Msal": "4.61.3",
+          "System.Memory": "4.5.4",
+          "System.Security.Cryptography.ProtectedData": "4.7.0",
+          "System.Text.Json": "4.7.2",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MahApps.Metro.IconPacks.BootstrapIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.BoxIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.CircumIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Codicons": "6.1.0",
+          "MahApps.Metro.IconPacks.Coolicons": "6.1.0",
+          "MahApps.Metro.IconPacks.Core": "6.1.0",
+          "MahApps.Metro.IconPacks.Entypo": "6.1.0",
+          "MahApps.Metro.IconPacks.EvaIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.FeatherIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.FileIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.FontAwesome": "6.1.0",
+          "MahApps.Metro.IconPacks.FontAwesome5": "6.1.0",
+          "MahApps.Metro.IconPacks.FontAwesome6": "6.1.0",
+          "MahApps.Metro.IconPacks.Fontaudio": "6.1.0",
+          "MahApps.Metro.IconPacks.Fontisto": "6.1.0",
+          "MahApps.Metro.IconPacks.ForkAwesome": "6.1.0",
+          "MahApps.Metro.IconPacks.GameIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Ionicons": "6.1.0",
+          "MahApps.Metro.IconPacks.JamIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.KeyruneIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Lucide": "6.1.0",
+          "MahApps.Metro.IconPacks.Material": "6.1.0",
+          "MahApps.Metro.IconPacks.MaterialDesign": "6.1.0",
+          "MahApps.Metro.IconPacks.MaterialLight": "6.1.0",
+          "MahApps.Metro.IconPacks.MemoryIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Microns": "6.1.0",
+          "MahApps.Metro.IconPacks.MingCuteIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Modern": "6.1.0",
+          "MahApps.Metro.IconPacks.MynaUIIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Octicons": "6.1.0",
+          "MahApps.Metro.IconPacks.PhosphorIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.PicolIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.PixelartIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.RPGAwesome": "6.1.0",
+          "MahApps.Metro.IconPacks.RadixIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.RemixIcon": "6.1.0",
+          "MahApps.Metro.IconPacks.SimpleIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Typicons": "6.1.0",
+          "MahApps.Metro.IconPacks.Unicons": "6.1.0",
+          "MahApps.Metro.IconPacks.VaadinIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.WeatherIcons": "6.1.0",
+          "MahApps.Metro.IconPacks.Zondicons": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.dll": {
@@ -61,10 +107,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.BootstrapIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.BootstrapIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BootstrapIcons.dll": {
@@ -80,10 +126,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.BoxIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.BoxIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll": {
@@ -99,10 +145,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.CircumIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.CircumIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.CircumIcons.dll": {
@@ -118,10 +164,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Codicons/6.0.0": {
+      "MahApps.Metro.IconPacks.Codicons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Codicons.dll": {
@@ -137,10 +183,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Coolicons/6.0.0": {
+      "MahApps.Metro.IconPacks.Coolicons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Coolicons.dll": {
@@ -156,7 +202,7 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Core/6.0.0": {
+      "MahApps.Metro.IconPacks.Core/6.1.0": {
         "type": "package",
         "dependencies": {
           "System.Text.Json": "8.0.5"
@@ -175,10 +221,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Entypo/6.0.0": {
+      "MahApps.Metro.IconPacks.Entypo/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Entypo.dll": {
@@ -194,10 +240,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.EvaIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.EvaIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.EvaIcons.dll": {
@@ -213,10 +259,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.FeatherIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.FeatherIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FeatherIcons.dll": {
@@ -232,10 +278,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.FileIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.FileIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FileIcons.dll": {
@@ -251,10 +297,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Fontaudio/6.0.0": {
+      "MahApps.Metro.IconPacks.Fontaudio/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontaudio.dll": {
@@ -270,10 +316,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.FontAwesome/6.0.0": {
+      "MahApps.Metro.IconPacks.FontAwesome/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.dll": {
@@ -289,10 +335,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.FontAwesome5/6.0.0": {
+      "MahApps.Metro.IconPacks.FontAwesome5/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome5.dll": {
@@ -308,10 +354,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.FontAwesome6/6.0.0": {
+      "MahApps.Metro.IconPacks.FontAwesome6/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome6.dll": {
@@ -327,10 +373,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Fontisto/6.0.0": {
+      "MahApps.Metro.IconPacks.Fontisto/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontisto.dll": {
@@ -346,10 +392,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.ForkAwesome/6.0.0": {
+      "MahApps.Metro.IconPacks.ForkAwesome/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.ForkAwesome.dll": {
@@ -365,10 +411,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.GameIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.GameIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.GameIcons.dll": {
@@ -384,10 +430,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Ionicons/6.0.0": {
+      "MahApps.Metro.IconPacks.Ionicons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Ionicons.dll": {
@@ -403,10 +449,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.JamIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.JamIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.JamIcons.dll": {
@@ -422,10 +468,29 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Lucide/6.0.0": {
+      "MahApps.Metro.IconPacks.KeyruneIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.KeyruneIcons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.KeyruneIcons.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MahApps.Metro.IconPacks.Lucide/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Lucide.dll": {
@@ -441,10 +506,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Material/6.0.0": {
+      "MahApps.Metro.IconPacks.Material/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
@@ -460,10 +525,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.MaterialDesign/6.0.0": {
+      "MahApps.Metro.IconPacks.MaterialDesign/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialDesign.dll": {
@@ -479,10 +544,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.MaterialLight/6.0.0": {
+      "MahApps.Metro.IconPacks.MaterialLight/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialLight.dll": {
@@ -498,10 +563,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.MemoryIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.MemoryIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MemoryIcons.dll": {
@@ -517,10 +582,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Microns/6.0.0": {
+      "MahApps.Metro.IconPacks.Microns/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Microns.dll": {
@@ -536,10 +601,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.MingCuteIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.MingCuteIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MingCuteIcons.dll": {
@@ -555,10 +620,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Modern/6.0.0": {
+      "MahApps.Metro.IconPacks.Modern/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Modern.dll": {
@@ -574,10 +639,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.MynaUIIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.MynaUIIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MynaUIIcons.dll": {
@@ -593,10 +658,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Octicons/6.0.0": {
+      "MahApps.Metro.IconPacks.Octicons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Octicons.dll": {
@@ -612,10 +677,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.PhosphorIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.PhosphorIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PhosphorIcons.dll": {
@@ -631,10 +696,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.PicolIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.PicolIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PicolIcons.dll": {
@@ -650,10 +715,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.PixelartIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.PixelartIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PixelartIcons.dll": {
@@ -669,10 +734,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.RadixIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.RadixIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RadixIcons.dll": {
@@ -688,10 +753,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.RemixIcon/6.0.0": {
+      "MahApps.Metro.IconPacks.RemixIcon/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RemixIcon.dll": {
@@ -707,10 +772,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.RPGAwesome/6.0.0": {
+      "MahApps.Metro.IconPacks.RPGAwesome/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RPGAwesome.dll": {
@@ -726,10 +791,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.SimpleIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.SimpleIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.SimpleIcons.dll": {
@@ -745,10 +810,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Typicons/6.0.0": {
+      "MahApps.Metro.IconPacks.Typicons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Typicons.dll": {
@@ -764,10 +829,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Unicons/6.0.0": {
+      "MahApps.Metro.IconPacks.Unicons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Unicons.dll": {
@@ -783,10 +848,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.VaadinIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.VaadinIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.VaadinIcons.dll": {
@@ -802,10 +867,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.WeatherIcons/6.0.0": {
+      "MahApps.Metro.IconPacks.WeatherIcons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.WeatherIcons.dll": {
@@ -821,10 +886,10 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "MahApps.Metro.IconPacks.Zondicons/6.0.0": {
+      "MahApps.Metro.IconPacks.Zondicons/6.1.0": {
         "type": "package",
         "dependencies": {
-          "MahApps.Metro.IconPacks.Core": "6.0.0"
+          "MahApps.Metro.IconPacks.Core": "6.1.0"
         },
         "compile": {
           "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Zondicons.dll": {
@@ -840,8 +905,752 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "System.Text.Json/8.0.5": {
+      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Bcl.Cryptography/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Bcl.Cryptography.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Bcl.Cryptography.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Data.SqlClient/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Identity": "1.11.4",
+          "Microsoft.Bcl.Cryptography": "8.0.0",
+          "Microsoft.Data.SqlClient.SNI.runtime": "6.0.2",
+          "Microsoft.Extensions.Caching.Memory": "8.0.1",
+          "Microsoft.IdentityModel.JsonWebTokens": "7.5.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.5.0",
+          "Microsoft.SqlServer.Server": "1.0.0",
+          "System.Configuration.ConfigurationManager": "8.0.1",
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "compile": {
+          "ref/net8.0/Microsoft.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Data.SqlClient.SNI.runtime/6.0.2": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.8",
+          "Microsoft.Extensions.FileProviders.Physical": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Configuration.FileExtensions": "9.0.8",
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.8",
+          "System.Text.Json": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.8",
+          "Microsoft.Extensions.FileSystemGlobbing": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/9.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Options/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Identity.Client/4.61.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.35.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Identity.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Identity.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.Extensions.Msal/4.61.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.61.3",
+          "System.Security.Cryptography.ProtectedData": "4.5.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/7.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/7.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "7.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/7.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "7.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/7.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "7.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "7.5.0",
+          "System.IdentityModel.Tokens.Jwt": "7.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/7.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "7.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.SqlServer.Server/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.ClientModel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory.Data": "1.0.2",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/net6.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "8.0.1",
+          "System.Security.Cryptography.ProtectedData": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Diagnostics.EventLog/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/7.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "7.5.0",
+          "Microsoft.IdentityModel.Tokens": "7.5.0"
+        },
+        "compile": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO.Pipelines/9.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Memory.Data/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.7.2",
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Security.Cryptography.Pkcs/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.8",
+          "System.Text.Encodings.Web": "9.0.8"
+        },
         "compile": {
           "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
@@ -853,16 +1662,63 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/System.Text.Json.targets": {}
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
         }
       }
     }
   },
   "libraries": {
-    "MahApps.Metro.IconPacks/6.0.0": {
-      "sha512": "RqU5P7cFoJ1Rf+36bHObNRNY3w8bINIfxAzYZmCxG1boE4WV/ccigDd5V8jO8KExZPlQGtjiRIoN1edeZOV0/Q==",
+    "Azure.Core/1.38.0": {
+      "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks/6.0.0",
+      "path": "azure.core/1.38.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.core.1.38.0.nupkg.sha512",
+        "azure.core.nuspec",
+        "azureicon.png",
+        "lib/net461/Azure.Core.dll",
+        "lib/net461/Azure.Core.xml",
+        "lib/net472/Azure.Core.dll",
+        "lib/net472/Azure.Core.xml",
+        "lib/net6.0/Azure.Core.dll",
+        "lib/net6.0/Azure.Core.xml",
+        "lib/netstandard2.0/Azure.Core.dll",
+        "lib/netstandard2.0/Azure.Core.xml"
+      ]
+    },
+    "Azure.Identity/1.11.4": {
+      "sha512": "Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
+      "type": "package",
+      "path": "azure.identity/1.11.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.identity.1.11.4.nupkg.sha512",
+        "azure.identity.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.Identity.dll",
+        "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "MahApps.Metro.IconPacks/6.1.0": {
+      "sha512": "z9ICQimvka9qfz1uo5T/H2TzdOw5V5PPBXqgiHJ5kw01yFY5jTqoW1bCrs24Gz3gM5eXZa1FhmiIuC9Ii8TWkQ==",
+      "type": "package",
+      "path": "mahapps.metro.iconpacks/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -875,14 +1731,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.BootstrapIcons/6.0.0": {
-      "sha512": "g/1a6MjCG37zWp66DNZJzT0kD7y77W8fdQcvqwsOdWYN7F++rCwvg0cs/yGcI+N5Mo3WMkMiEVIy7NqP+IVSRw==",
+    "MahApps.Metro.IconPacks.BootstrapIcons/6.1.0": {
+      "sha512": "+b9Hngiuk8K2QZAeCb7fSAKFSMtP/lKlZPLZWpF7Wm9SL8FNG3z3fUr0u+wP8jwZYDpn/ycQyz0ueXgiqyD2uQ==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.bootstrapicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.bootstrapicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -895,14 +1751,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BootstrapIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BootstrapIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.bootstrapicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.bootstrapicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.bootstrapicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.BoxIcons/6.0.0": {
-      "sha512": "MayHxZqLd688Hi3TLJPrtfoiTEISXUFxvI+emua8IC1rJaxCE5tvmkUtAlPg8BIarFrkswVwMtfnRe1UKWUeLQ==",
+    "MahApps.Metro.IconPacks.BoxIcons/6.1.0": {
+      "sha512": "cK/I3XsgrGBeimFNt2lSmNwx+NWPKM+qZkgd8o6QR+ZDcFZtjdalp0MtGaxCCrN7RvsyshnlbkHvzaGzLo7gUg==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.boxicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.boxicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -915,14 +1771,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.boxicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.boxicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.boxicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.CircumIcons/6.0.0": {
-      "sha512": "idrHT3Q+KQIP8bHHJ/jPMi0Pvk2mt0EWVjSPFjh2A4n1Csnp16UrzLbKIKxectKkf2SLfeMZV/9kSS9LbhY8+Q==",
+    "MahApps.Metro.IconPacks.CircumIcons/6.1.0": {
+      "sha512": "KVg+IaPqlEff+lLtfVnaf7KpABab+fFbM0TgyqlOV1SX3YtOdj4GS1yTu1hYjgGUksjNu7WXvYUh9ScE6/pPyA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.circumicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.circumicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -935,14 +1791,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.CircumIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.CircumIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.circumicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.circumicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.circumicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Codicons/6.0.0": {
-      "sha512": "ynGW0eMg4l2Wksi9lKCuoHxrZPO3U6RuK3UnMAstAGPmwFbUaja+M6X2u0idFVIH5AzYZkyk0CcXH36psiylOA==",
+    "MahApps.Metro.IconPacks.Codicons/6.1.0": {
+      "sha512": "bax2Tz9l9mq9cMZVm7p4y2yd3Ulug8TT0YKtJ+aIB64LCq54NtElqBlbiK2tFuS8hb12zhvm8TzAFVw+glFdXA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.codicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.codicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -955,14 +1811,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Codicons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Codicons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.codicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.codicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.codicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Coolicons/6.0.0": {
-      "sha512": "brBrKOqW8qqUaoGI8QNDWpkuLQOacgafhDA5fKciWIXasLlAWfYHCX7rvO1SH2y2EorPG5iJT1x+MErp+f6SOg==",
+    "MahApps.Metro.IconPacks.Coolicons/6.1.0": {
+      "sha512": "UKsVnFUZ4oi/OvSSQ6sShMhJLgof/HpaD7CMhCk4TMLh1UnLUKkOcXwrk5YwrtK8EHgudYwZQicNS8wBUckCYw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.coolicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.coolicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -975,14 +1831,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Coolicons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Coolicons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.coolicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.coolicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.coolicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Core/6.0.0": {
-      "sha512": "p3YcTH4+mp5boTgG6G41mZ2vBI/8Lqv6/19OaQzW2Ybe9TzkI2Icmu2aM1jlOw9g5cA/bdHSfTy1zbPisLIFzQ==",
+    "MahApps.Metro.IconPacks.Core/6.1.0": {
+      "sha512": "op3E+N8dKBRiKwqy7/P9d9vG/1+HcaUohEsEUkN8FtAmQEEpmAo88Y6GIIqsmtheXsks4VGAVtXgzsfgxL12eA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.core/6.0.0",
+      "path": "mahapps.metro.iconpacks.core/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -995,14 +1851,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.core.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.core.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.core.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Entypo/6.0.0": {
-      "sha512": "DxoBGCpbeP4Q9ONr9FzSsf/EU4okjXgJUOUKTNBlrKTtNgCXAOaMu5BeCYQpNTlVZNvVcydoXcUyvoe3I/3m4Q==",
+    "MahApps.Metro.IconPacks.Entypo/6.1.0": {
+      "sha512": "K2S+kFheCcGjVP4e62ROAq9VBjXSD3wneQIFWtCGDygGayv5+1glr0mOp9OCX9e2aLY3+it5TFHSa64N1gqOxw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.entypo/6.0.0",
+      "path": "mahapps.metro.iconpacks.entypo/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1015,14 +1871,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Entypo.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Entypo.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.entypo.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.entypo.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.entypo.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.EvaIcons/6.0.0": {
-      "sha512": "bkkebhe8YM7wiQnznWTBNLdn2CD6MMTY1wxhyM1kM18RVUOjuSI98WeiO4LpdDmn9If2fLeEtaSO27yDHvvWdg==",
+    "MahApps.Metro.IconPacks.EvaIcons/6.1.0": {
+      "sha512": "omWdvMKrCt1bsSr4EZdnXbr6bqReKtpdCc78lTDAxi+B5xzU7SVtTwnH/VQ2Dv8AjgT0SZdKFgnRE9G1azsNtw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.evaicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.evaicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1035,14 +1891,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.EvaIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.EvaIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.evaicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.evaicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.evaicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.FeatherIcons/6.0.0": {
-      "sha512": "x8zhDhkw0/ObJ30UJj4YSUBZNFdV9zpbBQ6ILY9Ktdyd8EmPz/jLKwSo3ze/TNRh6YQAuMHtLWvjTfg1uKbg2w==",
+    "MahApps.Metro.IconPacks.FeatherIcons/6.1.0": {
+      "sha512": "Mwhf6yhCisuks6kl8mcKDngdjGlDE5K78fMxvqkbieGo0bupBbDK+0O7j8AVkGTPvkT1Zlik5Kh/+VybWA3brg==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.feathericons/6.0.0",
+      "path": "mahapps.metro.iconpacks.feathericons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1055,14 +1911,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FeatherIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FeatherIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.feathericons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.feathericons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.feathericons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.FileIcons/6.0.0": {
-      "sha512": "U3BUmKAaKznuY5FRoI4NSh6ZIN+pIjRkqMCdx6MZxChxadchjqdOFh0ZdSTeg1rd2HxV7JNzb6IwAmPyL4lndQ==",
+    "MahApps.Metro.IconPacks.FileIcons/6.1.0": {
+      "sha512": "FvUuYJmL/dgt5ArtGtyyXPIRJCB1FHvq4DYlQ4p4xYl91jYqRyNIr23iVhgRg7e9F99/HKrAhBD1gpSHGjHY4w==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.fileicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.fileicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1075,14 +1931,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FileIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FileIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.fileicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.fileicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.fileicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Fontaudio/6.0.0": {
-      "sha512": "C2VWxiG2OGdX4LYkUr4Dxuu6kSRHUayHr5V+hFidCDcQCLtCXVNqquEQe/PdkVl+Ggp1WPyQl9lvt6297zA6Iw==",
+    "MahApps.Metro.IconPacks.Fontaudio/6.1.0": {
+      "sha512": "GEANxhfUZH9TFAeiVkcBK/3RDcIyXz6d7moz8dQc2zjE4yqtzuENAoSOeguM7d1wOHX8phkexb1C6XqWqQVmcQ==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.fontaudio/6.0.0",
+      "path": "mahapps.metro.iconpacks.fontaudio/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1095,14 +1951,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontaudio.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontaudio.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.fontaudio.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.fontaudio.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.fontaudio.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.FontAwesome/6.0.0": {
-      "sha512": "gKlgqDHj91zv94rPoo6KEGMH5256sjvuQifzKRbdE1NchxEv0+30VqSCbXHlzWGBAg0kcDevVSHF2eAmH+8muQ==",
+    "MahApps.Metro.IconPacks.FontAwesome/6.1.0": {
+      "sha512": "xuWDxbsIMZTqTPt5dlf8i5NZNsLXzXjLLkdVy08XwxmhoTdXRWK3e/mQTsjPP+k6P8kOieSlhufZ1ssw3KP54A==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.fontawesome/6.0.0",
+      "path": "mahapps.metro.iconpacks.fontawesome/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1115,14 +1971,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.fontawesome.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.fontawesome.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.fontawesome.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.FontAwesome5/6.0.0": {
-      "sha512": "aaNURBfk9UN/swwAgXLJJj/gQsh0NelHGlMccYyaZIo7K/Lve0V1MzklKnSDI8iwjlEZk2oUNme8Dl7s2LoZEg==",
+    "MahApps.Metro.IconPacks.FontAwesome5/6.1.0": {
+      "sha512": "WnfKiEX37uhs+I9YEReDlP+giyjEyXzBunRP383F+82OXlGIBiLADHWVqGTFVJzmDF7BXkym0OLU3MoC/RAThg==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.fontawesome5/6.0.0",
+      "path": "mahapps.metro.iconpacks.fontawesome5/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1135,14 +1991,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome5.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome5.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.fontawesome5.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.fontawesome5.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.fontawesome5.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.FontAwesome6/6.0.0": {
-      "sha512": "Xdof/7uGMmEyrKMznb9VyKsaj9ujwCpyy/D7Wk89hD9o75O1qGxOaOgYj+VwS15V9dHG89GxysSoUYFK687MQw==",
+    "MahApps.Metro.IconPacks.FontAwesome6/6.1.0": {
+      "sha512": "TNKFewuanGB0PTFZ7x3+zQml8lt91+HeEjfKxrMB2CEo+cS7RffFwnTVF5KXBIMW8JQZsc0L7Vv5xk34L2MMSg==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.fontawesome6/6.0.0",
+      "path": "mahapps.metro.iconpacks.fontawesome6/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1155,14 +2011,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome6.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome6.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.fontawesome6.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.fontawesome6.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.fontawesome6.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Fontisto/6.0.0": {
-      "sha512": "LqcnvhOjlaCNcMPctVHQHJm8rAvNLh/BJIqwozFR+C146BvCUdnX0MVPTn2w/FgoJRv6toqGlWimi53M2TOVEQ==",
+    "MahApps.Metro.IconPacks.Fontisto/6.1.0": {
+      "sha512": "8QWc3eELx0LpMf9VMeszVxOAUa1wCvfk6Am5pOAPPgT6Cd093YeEQvW0AsRNPELe5IbjDiwTPXTnZjDIEykQWw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.fontisto/6.0.0",
+      "path": "mahapps.metro.iconpacks.fontisto/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1175,14 +2031,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontisto.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontisto.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.fontisto.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.fontisto.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.fontisto.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.ForkAwesome/6.0.0": {
-      "sha512": "jL3kd3ar4XcGZDF9aCn1HqjjB5QrvY4YwpTiICiDrzBVC0W7BMmcGGa+qSrQLrjrYR2UlsOjfRbLfiuP7lCFrQ==",
+    "MahApps.Metro.IconPacks.ForkAwesome/6.1.0": {
+      "sha512": "zKWAIjq1KwXGTPBMqy4nJF4L/BXgvaruyxIFC4eBY9foJ1XnNvzp+8mD38zdw7pEfJm53SU/3g+JIbg+DRL19g==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.forkawesome/6.0.0",
+      "path": "mahapps.metro.iconpacks.forkawesome/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1195,14 +2051,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.ForkAwesome.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.ForkAwesome.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.forkawesome.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.forkawesome.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.forkawesome.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.GameIcons/6.0.0": {
-      "sha512": "REnBSlR1XBxJ0a8KGHsIys+ge5Rzmh62t5HEdy+6DDulAc4u69kSgWjtqeMEEZgz86wUbdzO6sJgWgKVmZmh+Q==",
+    "MahApps.Metro.IconPacks.GameIcons/6.1.0": {
+      "sha512": "P1opkobttg1cox2kBXXhC1Me3ppYwFCBI7poByYC+WtSd8ZDQuTy2gk2rim0TIszTAH2jByfORT5kvqqwXDrtA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.gameicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.gameicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1215,14 +2071,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.GameIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.GameIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.gameicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.gameicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.gameicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Ionicons/6.0.0": {
-      "sha512": "IGeyCP6mj1ot2lqUcxe3jYuPOpmHkdFu1+R/cGVxiKGmW6P59HDX0eyltWlFdVTIHBNkyhYr43J9C5UV6UJVFg==",
+    "MahApps.Metro.IconPacks.Ionicons/6.1.0": {
+      "sha512": "2hGZx4qnCyB/GoMMcFm+pj5zZUpe7AysexC+TtKRyAdsThRzYkX6nvl4RGbmhCDbo59P0VjKhDxfc6uQjwBabA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.ionicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.ionicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1235,14 +2091,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Ionicons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Ionicons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.ionicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.ionicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.ionicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.JamIcons/6.0.0": {
-      "sha512": "fjZp8L6jpyB/KbjRR7DR48nv4pO2i3IPboKi3ivF0TrrVzd/tUvxvjQSsDw+4++68ThRmwS3dLsmETicsS67wA==",
+    "MahApps.Metro.IconPacks.JamIcons/6.1.0": {
+      "sha512": "4uaLee73FGyLNGRMJG3blYcLadfJ7Z9HDcJAkUehdvwo2OYsGnTyC0ZFQ+CW+ocguBCU8xgEwO60oTOIN6L4Pw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.jamicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.jamicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1255,14 +2111,34 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.JamIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.JamIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.jamicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.jamicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.jamicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Lucide/6.0.0": {
-      "sha512": "FJJEcZaK7xii0M++ZtKqCtzoLwx4jyq79332OwglptWlg2BPUECa9NTrQv90ZwEX9x6/QC1XulokaKE8AgdOlA==",
+    "MahApps.Metro.IconPacks.KeyruneIcons/6.1.0": {
+      "sha512": "z7XS712WiW+W8Q0nhGrJGiE/dMIiaQnfnAL5oeRbgPHkyH6GyQposQruTjqUDByF0rA3SF6X7L/tHFytwowePw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.lucide/6.0.0",
+      "path": "mahapps.metro.iconpacks.keyruneicons/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/MahApps.Metro.IconPacks.KeyruneIcons.dll",
+        "lib/net462/MahApps.Metro.IconPacks.KeyruneIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.KeyruneIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.KeyruneIcons.xml",
+        "lib/net6.0-windows7.0/MahApps.Metro.IconPacks.KeyruneIcons.dll",
+        "lib/net6.0-windows7.0/MahApps.Metro.IconPacks.KeyruneIcons.xml",
+        "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.KeyruneIcons.dll",
+        "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.KeyruneIcons.xml",
+        "logo_small.png",
+        "mahapps.metro.iconpacks.keyruneicons.6.1.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.keyruneicons.nuspec"
+      ]
+    },
+    "MahApps.Metro.IconPacks.Lucide/6.1.0": {
+      "sha512": "vqcuLBZ6rN7noT+C3vRMWWdumG1lZ8e9cDJTj92uJcnzo4rSq+zZzcXPFwRqIBKS8+s6KtUFih9AJ1YsfvgEwQ==",
+      "type": "package",
+      "path": "mahapps.metro.iconpacks.lucide/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1275,14 +2151,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Lucide.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Lucide.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.lucide.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.lucide.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.lucide.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Material/6.0.0": {
-      "sha512": "41yNWY7L/Lm9PMCkkRZ1s5iPpjHGvewzgNxM6MDxtWZbkitcazGd9VOpBWjsw++ZTGn4b5LoDTy6qpsLUb2cVw==",
+    "MahApps.Metro.IconPacks.Material/6.1.0": {
+      "sha512": "PGTlI0v1RfA9CZPAafKtHAhXR6W2UgVFWDsInyOuLF1jMnv8YccE240ZSe02a+xsAwnAhtROAPRfagLkJAIQcQ==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.material/6.0.0",
+      "path": "mahapps.metro.iconpacks.material/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1295,14 +2171,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.material.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.material.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.material.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.MaterialDesign/6.0.0": {
-      "sha512": "T68cesNENRmMYTirN6HhoucHRoaW+KvqbLmPttI6Z06FfomyVOikwSdAJjlTicoJ54DkplG4DdfoUongX3/ZmA==",
+    "MahApps.Metro.IconPacks.MaterialDesign/6.1.0": {
+      "sha512": "TUZELfw6oVYooq5bTX2Ecj4APW+6FRofKvvNDa0i274SBtV5FY7dlLognLHBhqoxDDLOpQPeCErPfZZDFjyH8w==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.materialdesign/6.0.0",
+      "path": "mahapps.metro.iconpacks.materialdesign/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1315,14 +2191,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialDesign.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialDesign.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.materialdesign.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.materialdesign.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.materialdesign.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.MaterialLight/6.0.0": {
-      "sha512": "ESI5M41V7OHdKfyPhs32yyiEQ/d/sEYdd/7+qx2wj0OuE+AIiko2upjm/FCvo7weoyf4DyBCFJ3BzexeOgIwnQ==",
+    "MahApps.Metro.IconPacks.MaterialLight/6.1.0": {
+      "sha512": "PF3jIEgcHZxNjcB+kwmUAFDk/tFdMF92L0819qDus0hfg4K8fW0VENxd1HuTg72XRmwO/rvw34F8LDSCRBOQ8Q==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.materiallight/6.0.0",
+      "path": "mahapps.metro.iconpacks.materiallight/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1335,14 +2211,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialLight.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialLight.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.materiallight.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.materiallight.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.materiallight.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.MemoryIcons/6.0.0": {
-      "sha512": "Wqq+p18mTig+VEj4v/WvvgWEozJqFrzAeI2GtGL2juEcvTb1QIH+oymeOszzHrdgMhbFn51xEjUDbl7rczWF2g==",
+    "MahApps.Metro.IconPacks.MemoryIcons/6.1.0": {
+      "sha512": "sp0WUUecC4BroDsqcc7STg88bUWMeShc2UyTPM1MM/NctCpN1V0A8Qn0EdtBJ3JTva0T7ObGVs9BGd5SMjMxpw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.memoryicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.memoryicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1355,14 +2231,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MemoryIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MemoryIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.memoryicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.memoryicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.memoryicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Microns/6.0.0": {
-      "sha512": "t975fLbYsNKMImQYCbdZFx6dZj+qbEaEoQcUH52ERgVfVe+BHUhcuHvCnQo8fcXA0UnISnDMvOkXpeqkiPe8HA==",
+    "MahApps.Metro.IconPacks.Microns/6.1.0": {
+      "sha512": "Szcg0+6aMeIiVKkmX9LhNEJ2gREZlXZ5qabQMNTCg8ZxUfn/a+hTGbvs/2gT6SKaWpf9+dB1PiMCkk+H3wS27g==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.microns/6.0.0",
+      "path": "mahapps.metro.iconpacks.microns/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1375,14 +2251,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Microns.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Microns.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.microns.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.microns.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.microns.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.MingCuteIcons/6.0.0": {
-      "sha512": "lr6M2+vKr6IcZuUSKymZ8oftPJSZKQdLCQxJIHkcmp3It8mgqm2fg05mY2soJaEB1qjAmK0m/sCFdhGH92epcg==",
+    "MahApps.Metro.IconPacks.MingCuteIcons/6.1.0": {
+      "sha512": "pBsoexyTfdyi2lIYKzZzsFgaDrOoS285kHkX3OGdrIWu1f21BotILW62hfc56P8oUd8qKHsHD88ForwjJn6VxQ==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.mingcuteicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.mingcuteicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1395,14 +2271,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MingCuteIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MingCuteIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.mingcuteicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.mingcuteicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.mingcuteicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Modern/6.0.0": {
-      "sha512": "oDorJGTaCEN2LNAznxZeKnmWMhm2/VNGNNRCQC7NM/3mZ7URE8czPKpMgubCqqmmQCpBRK6qWmE7b/LyfRZ7Xg==",
+    "MahApps.Metro.IconPacks.Modern/6.1.0": {
+      "sha512": "Pl/S5z/1H5dvZYAGuEexZWapr7wHfMzSwPvkBWrYbzOc2zi+VsNZTx44IuKLhSmpu/v8G8iXdocu1pfqcnyyTw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.modern/6.0.0",
+      "path": "mahapps.metro.iconpacks.modern/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1415,14 +2291,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Modern.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Modern.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.modern.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.modern.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.modern.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.MynaUIIcons/6.0.0": {
-      "sha512": "mTXykKzNzCvAISjyDCY1fSUB0V0uk3wo0lqjgjzHwMbdDow/KnXnCJdtBYYDa+As5gV4icRWEUO+re6FLbT50Q==",
+    "MahApps.Metro.IconPacks.MynaUIIcons/6.1.0": {
+      "sha512": "IMT/d1mctrVt+KYPdTqrcsZ8uQ3kqJ1Rj/y+1sdzBR5HFfp76J/mhKhDpgJZXCcAbS8wl6utb+PS/2evXhmU4w==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.mynauiicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.mynauiicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1435,14 +2311,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MynaUIIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MynaUIIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.mynauiicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.mynauiicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.mynauiicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Octicons/6.0.0": {
-      "sha512": "dJKYuwbwT0f15h1iEQqtDhTydMjabFFtYJ1ZDfxr0S1dQhP4LQj7GqNSjT5jfUuZTxGRmcHHEf//vDdKGhwt8g==",
+    "MahApps.Metro.IconPacks.Octicons/6.1.0": {
+      "sha512": "PkKOl3bn7q+TXcPWIvFMB2g9401+wEEvoOcp0g+0mf20ixeQBWkuGkw79Ff5VNv+DR+ZZ/9sG+a+2A1Yqd2mWA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.octicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.octicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1455,14 +2331,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Octicons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Octicons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.octicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.octicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.octicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.PhosphorIcons/6.0.0": {
-      "sha512": "GL4a9Ac39X4B5gq3zKfXlJnepTQgIpFxGQaR3wyA3xBkgpMDFJDwm6yTWZxGxJdbmj41o86G/dbOqjZ0nAeX/w==",
+    "MahApps.Metro.IconPacks.PhosphorIcons/6.1.0": {
+      "sha512": "6wWeUZ+8w+quEzRF/mekPSQQsgvaLGSlT48lJecGkFTwJIY5wL7GL5ZwuLUVoN5xl1X5khF/IRAjm8Uf56oX/w==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.phosphoricons/6.0.0",
+      "path": "mahapps.metro.iconpacks.phosphoricons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1475,14 +2351,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PhosphorIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PhosphorIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.phosphoricons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.phosphoricons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.phosphoricons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.PicolIcons/6.0.0": {
-      "sha512": "vKtiVcGcWgOK1i8++q4mYrDgIZdn06sjYYu7wEDgXDNCMcKlQZuneglxiRGH3ywHkvb+CBsEsd2bUuY9lXVs1A==",
+    "MahApps.Metro.IconPacks.PicolIcons/6.1.0": {
+      "sha512": "kF4teznJ9kCXHvFOddW4xl8WnVygAGleXrdPKcHTmWO+b1ChpBajQ0Z4zwIUs85E4zGmbY1z+f9eEjSKcK+DEQ==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.picolicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.picolicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1495,14 +2371,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PicolIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PicolIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.picolicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.picolicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.picolicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.PixelartIcons/6.0.0": {
-      "sha512": "Zf/lm2XBSblDUngUw11ClKkhgEh1JpRS80GSvvPxpZGILcj5uJpy3q6mdrHRmjP4B4ocFM8FP3SVxKciIhH8ow==",
+    "MahApps.Metro.IconPacks.PixelartIcons/6.1.0": {
+      "sha512": "heE6VJHrHO2zmhiHwNW5DZMA49RiFqhZZgRkmr6z8DLE/fyB2hQfHqYvq1h1FAif2SH8jIOj38FlC29iSfxMWA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.pixelarticons/6.0.0",
+      "path": "mahapps.metro.iconpacks.pixelarticons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1515,14 +2391,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PixelartIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PixelartIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.pixelarticons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.pixelarticons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.pixelarticons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.RadixIcons/6.0.0": {
-      "sha512": "drq93gB0wUkVot7yX0EGoSCzazqV7VnPH2p+P55H/E5vvCsA61zyeiWLwDvXDwBATTpN6er7sSCrM78zHoxksg==",
+    "MahApps.Metro.IconPacks.RadixIcons/6.1.0": {
+      "sha512": "JYRskwSEKkt71YeiU/yOonqjUK75VGsQcNkewMuyyvZTWuOts0zl2ktwnWRHv2LCrkff5+KYvzYJTntOLvCMNw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.radixicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.radixicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1535,14 +2411,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RadixIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RadixIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.radixicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.radixicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.radixicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.RemixIcon/6.0.0": {
-      "sha512": "zd5x35lsKopboxiUKEabcLl5f2hUYHDlokluhq8yXqRW9aJqUsiN+fzDPCIDyqLpbwX/z4uz740VgXEcbN3+zw==",
+    "MahApps.Metro.IconPacks.RemixIcon/6.1.0": {
+      "sha512": "JI6grQid7uradV2b/p+AN/aNprtBU2yHtGQZIWaRYoxwvVVdfWuoHMkKoJXTUmslKvSlKcnBcGguOW0eJgxSDw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.remixicon/6.0.0",
+      "path": "mahapps.metro.iconpacks.remixicon/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1555,14 +2431,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RemixIcon.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RemixIcon.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.remixicon.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.remixicon.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.remixicon.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.RPGAwesome/6.0.0": {
-      "sha512": "CrlOQz9w9XzUTMkWyq3nPdVQ9AdcRTWpDPM9GkSgHSaxMtpEBRjgIaqkoGl7GZevoYuER9zUR32F6oIYz6sx3g==",
+    "MahApps.Metro.IconPacks.RPGAwesome/6.1.0": {
+      "sha512": "XHarLjbZrr2EYkWXSOoKjCdiJnYdH/Fxx+m9401p9YAW1ECUoT6gokq4QXTSHdKiwjJ4/0ij70H6tSg0zaVIPA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.rpgawesome/6.0.0",
+      "path": "mahapps.metro.iconpacks.rpgawesome/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1575,14 +2451,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RPGAwesome.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RPGAwesome.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.rpgawesome.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.rpgawesome.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.rpgawesome.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.SimpleIcons/6.0.0": {
-      "sha512": "whuHnQxq8/jskB0t5jlC0aB3D47cXtF/ifXRF0+0sjF176RlJFanAJQPN/WCWiWzCVxqgiCXD2KGirsyRfFBbQ==",
+    "MahApps.Metro.IconPacks.SimpleIcons/6.1.0": {
+      "sha512": "54XM8suu6YqQxHF418SZtlianeowziGtjT8BQp05gqZk+Rpm5opBeQ4o2fZ+5F39SqFHr62JQlx26H4Cl7Q6Jw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.simpleicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.simpleicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1595,14 +2471,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.SimpleIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.SimpleIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.simpleicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.simpleicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.simpleicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Typicons/6.0.0": {
-      "sha512": "EUW/25w3TjUN3WkhG9MHiMhIjakMWpfdxiiKcWllIGGJljAaBip0NeBbg7qXsQ8IuykRfJaqsL3IyrHAkuFfLQ==",
+    "MahApps.Metro.IconPacks.Typicons/6.1.0": {
+      "sha512": "MvA29YvOcSlNJeplNsHgbC9N+K96T1YIKyu9DddaRyfAmKC3D/PTUwMF8X6nz/fpl/+FJEo0/SukbLTGoegWtw==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.typicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.typicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1615,14 +2491,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Typicons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Typicons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.typicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.typicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.typicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Unicons/6.0.0": {
-      "sha512": "GgQM45iy5T2BdEE+Yw0fbUARQFAUuIyCU62OTAu0iPQvzr3h60q7+vmQvPFBWRnDT4GlgxiESoKFwh2PVrn11A==",
+    "MahApps.Metro.IconPacks.Unicons/6.1.0": {
+      "sha512": "qzKn0ACXgjvpDw0cJDJzFQ7OMGUDJqPIQ2fDBjSrjCtER4C83e1t53uZUAloSYa16YWxd4V/ptOIs/S1TD1AVg==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.unicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.unicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1635,14 +2511,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Unicons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Unicons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.unicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.unicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.unicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.VaadinIcons/6.0.0": {
-      "sha512": "IgdtaFGLqcVWkzenKG93CCCUfrukdGXP7O0elap/fgClqM9HrbDg6g9jlpq7UmFGqG6bkQqsE/CZzLQid/mRtw==",
+    "MahApps.Metro.IconPacks.VaadinIcons/6.1.0": {
+      "sha512": "srscbYzkVM+Lxk4/tiDsmGdSrrhoshbeatlwsclZbiDymLC4bGZ5vHQo48XVDENiLZhoSBnAeMG9MpHTVfxAfA==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.vaadinicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.vaadinicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1655,14 +2531,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.VaadinIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.VaadinIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.vaadinicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.vaadinicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.vaadinicons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.WeatherIcons/6.0.0": {
-      "sha512": "HPmEuRHuIbim+m5g6H8By83UKOOwL6Jyqcxh6PHtBhtIeF+r7KR9Lc0P6wU5PoRD46PCxH6dQpj6nIClqa2XZw==",
+    "MahApps.Metro.IconPacks.WeatherIcons/6.1.0": {
+      "sha512": "1LDVlmG/7zEXUURVmZ0VRWsikU7jTVYV1RsrEb31H2oonJYjJvq62zl3ZU9SAvSl/LO8ztOqiZyLaRqO0DGw3g==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.weathericons/6.0.0",
+      "path": "mahapps.metro.iconpacks.weathericons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1675,14 +2551,14 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.WeatherIcons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.WeatherIcons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.weathericons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.weathericons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.weathericons.nuspec"
       ]
     },
-    "MahApps.Metro.IconPacks.Zondicons/6.0.0": {
-      "sha512": "o21GYLdt6Dzd5KoO/PhQG4lU7hgYjEThAt36gImL+/3nzkM2OE0vDS8cTDmmDwTFgZdKBJHtvvozj7agqquluw==",
+    "MahApps.Metro.IconPacks.Zondicons/6.1.0": {
+      "sha512": "ZaacyPWxwANY1wG4dryQVbLls71ihG0EQ6bSC14rfl/XqJ+Quh+Y7uzZInb+v3EB3ngrkk8j5xnEXCFfdShTxg==",
       "type": "package",
-      "path": "mahapps.metro.iconpacks.zondicons/6.0.0",
+      "path": "mahapps.metro.iconpacks.zondicons/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1695,14 +2571,1162 @@
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Zondicons.dll",
         "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Zondicons.xml",
         "logo_small.png",
-        "mahapps.metro.iconpacks.zondicons.6.0.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.zondicons.6.1.0.nupkg.sha512",
         "mahapps.metro.iconpacks.zondicons.nuspec"
       ]
     },
-    "System.Text.Json/8.0.5": {
-      "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
-      "path": "system.text.json/8.0.5",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Bcl.Cryptography/8.0.0": {
+      "sha512": "Y3t/c7C5XHJGFDnohjf1/9SYF3ZOfEU1fkNQuKg/dGf9hN18yrQj2owHITGfNS3+lKJdW6J4vY98jYu57jCO8A==",
+      "type": "package",
+      "path": "microsoft.bcl.cryptography/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Bcl.Cryptography.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Bcl.Cryptography.targets",
+        "lib/net462/Microsoft.Bcl.Cryptography.dll",
+        "lib/net462/Microsoft.Bcl.Cryptography.xml",
+        "lib/net8.0/Microsoft.Bcl.Cryptography.dll",
+        "lib/net8.0/Microsoft.Bcl.Cryptography.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.Cryptography.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.Cryptography.xml",
+        "microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
+        "microsoft.bcl.cryptography.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Data.SqlClient/6.0.2": {
+      "sha512": "RDqwzNu5slSqGy0eSgnN4fuLdGI1w9ZHBRNALrbUsykOIbXtGCpyotG0r5zz+HHtzxbe6LtcAyWcOiu0a+Fx/A==",
+      "type": "package",
+      "path": "microsoft.data.sqlclient/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dotnet.png",
+        "lib/net462/Microsoft.Data.SqlClient.dll",
+        "lib/net462/Microsoft.Data.SqlClient.xml",
+        "lib/net462/cs/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/de/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/es/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/fr/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/it/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/ja/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/ko/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/pl/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/pt-BR/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/ru/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/tr/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/zh-Hans/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net462/zh-Hant/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/Microsoft.Data.SqlClient.dll",
+        "lib/net8.0/Microsoft.Data.SqlClient.xml",
+        "lib/net8.0/cs/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/de/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/es/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/fr/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/it/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/ja/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/ko/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/pl/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/pt-BR/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/ru/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/tr/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net8.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/Microsoft.Data.SqlClient.dll",
+        "lib/net9.0/Microsoft.Data.SqlClient.xml",
+        "lib/net9.0/cs/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/de/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/es/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/fr/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/it/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/ja/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/ko/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/pl/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/ru/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/tr/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll",
+        "lib/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll",
+        "microsoft.data.sqlclient.6.0.2.nupkg.sha512",
+        "microsoft.data.sqlclient.nuspec",
+        "ref/net462/Microsoft.Data.SqlClient.dll",
+        "ref/net462/Microsoft.Data.SqlClient.xml",
+        "ref/net8.0/Microsoft.Data.SqlClient.dll",
+        "ref/net8.0/Microsoft.Data.SqlClient.xml",
+        "ref/net9.0/Microsoft.Data.SqlClient.dll",
+        "ref/net9.0/Microsoft.Data.SqlClient.xml",
+        "runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll",
+        "runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll",
+        "runtimes/win/lib/net462/Microsoft.Data.SqlClient.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll",
+        "runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll"
+      ]
+    },
+    "Microsoft.Data.SqlClient.SNI.runtime/6.0.2": {
+      "sha512": "f+pRODTWX7Y67jXO3T5S2dIPZ9qMJNySjlZT/TKmWVNWe19N8jcWmHaqHnnchaq3gxEKv1SWVY5EFzOD06l41w==",
+      "type": "package",
+      "path": "microsoft.data.sqlclient.sni.runtime/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dotnet.png",
+        "microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512",
+        "microsoft.data.sqlclient.sni.runtime.nuspec",
+        "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll",
+        "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll",
+        "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+      "sha512": "3KuSxeHoNYdxVYfg2IRZCThcrlJ1XJqIXkAWikCsbm5C/bCjv7G0WoKDyuR98Q+T607QT2Zl5GsbGRkENcV2yQ==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Caching.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Caching.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Memory/8.0.1": {
+      "sha512": "HFDnhYLccngrzyGgHkjEDU5FMLn4MpOsr5ElgsBMC4yx6lJh4jeWO7fHS8+TXPq+dgxCmUa/Trl8svObmwW4QA==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.memory/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Caching.Memory.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Caching.Memory.targets",
+        "lib/net462/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net462/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/net6.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net6.0/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/net7.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net7.0/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net8.0/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
+        "microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
+        "microsoft.extensions.caching.memory.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/9.0.8": {
+      "sha512": "6m+8Xgmf8UWL0p/oGqBM+0KbHE5/ePXbV1hKXgC59zEv0aa0DW5oiiyxDbK5kH5j4gIvyD5uWL0+HadKBJngvQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net9.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net9.0/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.9.0.8.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.8": {
+      "sha512": "yNou2KM35RvzOh4vUFtl2l33rWPvOCoba+nzEDJ+BgD8aOL/jew4WPCibQvntRfOJ2pJU8ARygSMD+pdjvDHuA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/9.0.8": {
+      "sha512": "2jgx58Jpk3oKT7KRn8x/cFf3QDTjQP+KUbyBnynAcB2iBx1Eq9EdNMCu0QEbYuaZOaQru/Kwdffary+hn58Wwg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.fileextensions/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.FileExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.FileExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net9.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "microsoft.extensions.configuration.fileextensions.9.0.8.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Json/9.0.8": {
+      "sha512": "vjxzcnL7ul322+kpvELisXaZl8/5MYs6JfI9DZLQWsao1nA/4FL48yPwDK986hbJTWc64JxOOaMym0SQ/dy32w==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.json/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Json.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net9.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net9.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.xml",
+        "microsoft.extensions.configuration.json.9.0.8.nupkg.sha512",
+        "microsoft.extensions.configuration.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/9.0.8": {
+      "sha512": "4zZbQ4w+hCMm9J+z5NOj3giIPT2MhZxx05HX/MGuAmDBbjOuXlYIIRN+t4V6OLxy5nXZIcXO+dQMB/OWubuDkw==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.9.0.8.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/9.0.8": {
+      "sha512": "FlOe2i7UUIfY0l0ChaIYtlXjdWWutR4DMRKZaGD6z4G1uVTteFkbBfxUIoi1uGmrZQxXe/yv/cfwiT0tK2xyXA==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Physical.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Physical.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.9.0.8.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/9.0.8": {
+      "sha512": "96Ub5LmwYfIGVoXkbe4kjs+ivK6fLBTwKJAOMfUNV0R+AkZRItlgROFqXEWMUlXBTPM1/kKu26Ueu5As6RDzJA==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.9.0.8.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+      "sha512": "nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/8.0.2": {
+      "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
+      "type": "package",
+      "path": "microsoft.extensions.options/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Options.targets",
+        "lib/net462/Microsoft.Extensions.Options.dll",
+        "lib/net462/Microsoft.Extensions.Options.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.8.0.2.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/9.0.8": {
+      "sha512": "tizSIOEsIgSNSSh+hKeUVPK7xmTIjR8s+mJWOu1KXV3htvNQiPMFRMO17OdI1y/4ZApdBVk49u/08QGC9yvLug==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net8.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net9.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net9.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.9.0.8.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Identity.Client/4.61.3": {
+      "sha512": "naJo/Qm35Caaoxp5utcw+R8eU8ZtLz2ALh8S+gkekOYQ1oazfCQMWVT4NJ/FnHzdIJlm8dMz0oMpMGCabx5odA==",
+      "type": "package",
+      "path": "microsoft.identity.client/4.61.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Microsoft.Identity.Client.dll",
+        "lib/net462/Microsoft.Identity.Client.xml",
+        "lib/net6.0-android31.0/Microsoft.Identity.Client.dll",
+        "lib/net6.0-android31.0/Microsoft.Identity.Client.xml",
+        "lib/net6.0-ios15.4/Microsoft.Identity.Client.dll",
+        "lib/net6.0-ios15.4/Microsoft.Identity.Client.xml",
+        "lib/net6.0/Microsoft.Identity.Client.dll",
+        "lib/net6.0/Microsoft.Identity.Client.xml",
+        "lib/netstandard2.0/Microsoft.Identity.Client.dll",
+        "lib/netstandard2.0/Microsoft.Identity.Client.xml",
+        "microsoft.identity.client.4.61.3.nupkg.sha512",
+        "microsoft.identity.client.nuspec"
+      ]
+    },
+    "Microsoft.Identity.Client.Extensions.Msal/4.61.3": {
+      "sha512": "PWnJcznrSGr25MN8ajlc2XIDW4zCFu0U6FkpaNLEWLgd1NgFCp5uDY3mqLDgM8zCN8hqj8yo5wHYfLB2HjcdGw==",
+      "type": "package",
+      "path": "microsoft.identity.client.extensions.msal/4.61.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "lib/net6.0/Microsoft.Identity.Client.Extensions.Msal.xml",
+        "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.xml",
+        "microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512",
+        "microsoft.identity.client.extensions.msal.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Abstractions/7.5.0": {
+      "sha512": "seOFPaBQh2K683eFujAuDsrO2XbOA+SvxRli+wu7kl+ZymuGQzjmmUKfyFHmDazpPOBnmOX1ZnjX7zFDZHyNIA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.abstractions/7.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
+        "microsoft.identitymodel.abstractions.7.5.0.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/7.5.0": {
+      "sha512": "mfyiGptbcH+oYrzAtWWwuV+7MoM0G0si+9owaj6DGWInhq/N/KDj/pWHhq1ShdmBu332gjP+cppjgwBpsOj7Fg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.7.5.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/7.5.0": {
+      "sha512": "3BInZEajJvnTDP/YRrmJ3Fyw8XAWWR9jG+3FkhhzRJJYItVL+BEH9qlgxSmtrxp7S7N6TOv+Y+X8BG61viiehQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/7.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Logging.dll",
+        "lib/net461/Microsoft.IdentityModel.Logging.xml",
+        "lib/net462/Microsoft.IdentityModel.Logging.dll",
+        "lib/net462/Microsoft.IdentityModel.Logging.xml",
+        "lib/net472/Microsoft.IdentityModel.Logging.dll",
+        "lib/net472/Microsoft.IdentityModel.Logging.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.7.5.0.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols/7.5.0": {
+      "sha512": "ugyb0Nm+I+UrHGYg28mL8oCV31xZrOEbs8fQkcShUoKvgk22HroD2odCnqEf56CoAFYTwoDExz8deXzrFC+TyA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols/7.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net462/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net462/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net472/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net472/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.xml",
+        "microsoft.identitymodel.protocols.7.5.0.nupkg.sha512",
+        "microsoft.identitymodel.protocols.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.5.0": {
+      "sha512": "/U3I/8uutTqZr2n/zt0q08bluYklq+5VWP7ZuOGpTUR1ln5bSbrexAzdSGzrhxTxNNbHMCU8Mn2bNQvcmehAxg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols.openidconnect/7.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net462/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net462/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net472/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net472/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "microsoft.identitymodel.protocols.openidconnect.7.5.0.nupkg.sha512",
+        "microsoft.identitymodel.protocols.openidconnect.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/7.5.0": {
+      "sha512": "owe33wqe0ZbwBxM3D90I0XotxNyTdl85jud03d+OrUOJNnTiqnYePwBk3WU9yW0Rk5CYX+sfSim7frmu6jeEzQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/7.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net461/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net462/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net462/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net472/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net472/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.7.5.0.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
+    "Microsoft.SqlServer.Server/1.0.0": {
+      "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
+      "type": "package",
+      "path": "microsoft.sqlserver.server/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet.png",
+        "lib/net46/Microsoft.SqlServer.Server.dll",
+        "lib/net46/Microsoft.SqlServer.Server.pdb",
+        "lib/net46/Microsoft.SqlServer.Server.xml",
+        "lib/netstandard2.0/Microsoft.SqlServer.Server.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Server.pdb",
+        "lib/netstandard2.0/Microsoft.SqlServer.Server.xml",
+        "microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+        "microsoft.sqlserver.server.nuspec"
+      ]
+    },
+    "System.ClientModel/1.0.0": {
+      "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
+      "type": "package",
+      "path": "system.clientmodel/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "DotNetPackageIcon.png",
+        "README.md",
+        "lib/net6.0/System.ClientModel.dll",
+        "lib/net6.0/System.ClientModel.xml",
+        "lib/netstandard2.0/System.ClientModel.dll",
+        "lib/netstandard2.0/System.ClientModel.xml",
+        "system.clientmodel.1.0.0.nupkg.sha512",
+        "system.clientmodel.nuspec"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/8.0.1": {
+      "sha512": "gPYFPDyohW2gXNhdQRSjtmeS6FymL2crg4Sral1wtvEJ7DUqFCDWDVbbLobASbzxfic8U1hQEdC7hmg9LHncMw==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Configuration.ConfigurationManager.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets",
+        "lib/net462/System.Configuration.ConfigurationManager.dll",
+        "lib/net462/System.Configuration.ConfigurationManager.xml",
+        "lib/net6.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net6.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net7.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net7.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net8.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net8.0/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.8.0.1.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.1": {
+      "sha512": "KiLYDu2k2J82Q9BJpWiuQqCkFjRBWVq4jDzKKWawVi9KWzyD0XG3cmfX0vqTQlL14Wi9EufJrbL0+KCLTbqWiQ==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net461/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net5.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net5.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Diagnostics.EventLog/8.0.1": {
+      "sha512": "n1ZP7NM2Gkn/MgD8+eOT5MulMj6wfeQMNS2Pizvq5GHCZfjlFMXV2irQlQmJhwA2VABC57M0auudO89Iu2uRLg==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net462/System.Diagnostics.EventLog.dll",
+        "lib/net462/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/net7.0/System.Diagnostics.EventLog.dll",
+        "lib/net7.0/System.Diagnostics.EventLog.xml",
+        "lib/net8.0/System.Diagnostics.EventLog.dll",
+        "lib/net8.0/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.8.0.1.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.IdentityModel.Tokens.Jwt/7.5.0": {
+      "sha512": "D0TtrWOfoPdyYSlvOGaU9F1QR+qrbgJ/4eiEsQkIz7YQKIKkGXQldXukn6cYG9OahSq5UVMvyAIObECpH6Wglg==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/7.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net462/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net6.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net8.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.7.5.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+    "System.IO.Pipelines/9.0.8": {
+      "sha512": "6vPmJt73mgUo1gzc/OcXlJvClz/2jxZ4TQPRfriVaLoGRH2mye530D9WHJYbFQRNMxF3PWCoeofsFdCyN7fLzA==",
+      "type": "package",
+      "path": "system.io.pipelines/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net462/System.IO.Pipelines.xml",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.xml",
+        "lib/net9.0/System.IO.Pipelines.dll",
+        "lib/net9.0/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.9.0.8.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory.Data/1.0.2": {
+      "sha512": "JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
+      "type": "package",
+      "path": "system.memory.data/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "DotNetPackageIcon.png",
+        "README.md",
+        "lib/net461/System.Memory.Data.dll",
+        "lib/net461/System.Memory.Data.xml",
+        "lib/netstandard2.0/System.Memory.Data.dll",
+        "lib/netstandard2.0/System.Memory.Data.xml",
+        "system.memory.data.1.0.2.nupkg.sha512",
+        "system.memory.data.nuspec"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "sha512": "CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "type": "package",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
+        "lib/net462/System.Security.Cryptography.Pkcs.dll",
+        "lib/net462/System.Security.Cryptography.Pkcs.xml",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+        "system.security.cryptography.pkcs.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/8.0.0": {
+      "sha512": "+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.ProtectedData.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net462/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/9.0.8": {
+      "sha512": "W+LotQsM4wBJ4PG7uRkyul4wqL4Fz7R4ty6uXrCNZUhbaHYANgrPaYR2ZpMVpdCjQEJ17Jr1NMN8hv4SHaHY4A==",
+      "type": "package",
+      "path": "system.text.encodings.web/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net462/System.Text.Encodings.Web.xml",
+        "lib/net8.0/System.Text.Encodings.Web.dll",
+        "lib/net8.0/System.Text.Encodings.Web.xml",
+        "lib/net9.0/System.Text.Encodings.Web.dll",
+        "lib/net9.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.9.0.8.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/9.0.8": {
+      "sha512": "mIQir9jBqk0V7X0Nw5hzPJZC8DuGdf+2DS3jAVsr6rq5+/VyH5rza0XGcONJUWBrZ+G6BCwNyjWYd9lncBu48A==",
+      "type": "package",
+      "path": "system.text.json/9.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1754,28 +3778,67 @@
         "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
         "buildTransitive/net461/System.Text.Json.targets",
         "buildTransitive/net462/System.Text.Json.targets",
-        "buildTransitive/net6.0/System.Text.Json.targets",
+        "buildTransitive/net8.0/System.Text.Json.targets",
         "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
         "buildTransitive/netstandard2.0/System.Text.Json.targets",
         "lib/net462/System.Text.Json.dll",
         "lib/net462/System.Text.Json.xml",
-        "lib/net6.0/System.Text.Json.dll",
-        "lib/net6.0/System.Text.Json.xml",
-        "lib/net7.0/System.Text.Json.dll",
-        "lib/net7.0/System.Text.Json.xml",
         "lib/net8.0/System.Text.Json.dll",
         "lib/net8.0/System.Text.Json.xml",
+        "lib/net9.0/System.Text.Json.dll",
+        "lib/net9.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.5.nupkg.sha512",
+        "system.text.json.9.0.8.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "MahApps.Metro.IconPacks >= 6.0.0"
+      "MahApps.Metro.IconPacks >= 6.1.0",
+      "Microsoft.Data.SqlClient >= 6.0.2",
+      "Microsoft.Extensions.Configuration >= 9.0.8",
+      "Microsoft.Extensions.Configuration.FileExtensions >= 9.0.8",
+      "Microsoft.Extensions.Configuration.Json >= 9.0.8"
     ]
   },
   "packageFolders": {
@@ -1830,7 +3893,23 @@
         "dependencies": {
           "MahApps.Metro.IconPacks": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.1.0, )"
+          },
+          "Microsoft.Data.SqlClient": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[9.0.8, )"
+          },
+          "Microsoft.Extensions.Configuration.FileExtensions": {
+            "target": "Package",
+            "version": "[9.0.8, )"
+          },
+          "Microsoft.Extensions.Configuration.Json": {
+            "target": "Package",
+            "version": "[9.0.8, )"
           }
         },
         "imports": [

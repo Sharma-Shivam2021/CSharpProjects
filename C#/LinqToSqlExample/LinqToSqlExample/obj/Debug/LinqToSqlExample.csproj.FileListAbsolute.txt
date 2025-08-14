@@ -1,0 +1,16 @@
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\bin\Debug\LinqToSqlExample.exe.config
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\bin\Debug\LinqToSqlExample.exe
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\bin\Debug\LinqToSqlExample.pdb
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.csproj.AssemblyReference.cache
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\MainWindow.g.cs
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\App.g.cs
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample_MarkupCompile.cache
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample_MarkupCompile.lref
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\MainWindow.baml
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.g.resources
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.Properties.Resources.resources
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.csproj.GenerateResource.cache
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.exe
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.pdb
+E:\C# Apps\C#\LinqToSqlExample\LinqToSqlExample\obj\Debug\LinqToSqlExample.exe.config
