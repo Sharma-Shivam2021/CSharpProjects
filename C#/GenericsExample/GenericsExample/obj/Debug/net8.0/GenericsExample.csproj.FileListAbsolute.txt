@@ -1,0 +1,14 @@
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.exe
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.deps.json
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.runtimeconfig.json
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.dll
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.pdb
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.AssemblyInfoInputs.cache
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.AssemblyInfo.cs
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.csproj.CoreCompileInputs.cache
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.dll
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\refint\GenericsExample.dll
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.pdb
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.genruntimeconfig.cache
+E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\ref\GenericsExample.dll

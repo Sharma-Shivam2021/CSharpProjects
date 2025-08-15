@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D80996F8-165F-46FB-8E53-075F2E782A3A}|CleanCode(SOLID)\\CleanCode(SOLID).csproj|e:\\hackerrankpracticefile\\cleancode(solid)\\cleancode(solid)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80996F8-165F-46FB-8E53-075F2E782A3A}|CleanCode(SOLID)\\CleanCode(SOLID).csproj|solutionrelative:cleancode(solid)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80996F8-165F-46FB-8E53-075F2E782A3A}|CleanCode(SOLID)\\CleanCode(SOLID).csproj|e:\\hackerrankpracticefile\\cleancode(solid)\\cleancode(solid)\\solid\\dependencyinversionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80996F8-165F-46FB-8E53-075F2E782A3A}|CleanCode(SOLID)\\CleanCode(SOLID).csproj|solutionrelative:cleancode(solid)\\solid\\dependencyinversionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInversionPrinciple.cs",
+              "DocumentMoniker": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\CleanCode(SOLID)\\SOLID\\DependencyInversionPrinciple.cs",
+              "RelativeDocumentMoniker": "CleanCode(SOLID)\\SOLID\\DependencyInversionPrinciple.cs",
+              "ToolTip": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\CleanCode(SOLID)\\SOLID\\DependencyInversionPrinciple.cs*",
+              "RelativeToolTip": "CleanCode(SOLID)\\SOLID\\DependencyInversionPrinciple.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T16:53:02.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\CleanCode(SOLID)\\Program.cs",
+              "RelativeDocumentMoniker": "CleanCode(SOLID)\\Program.cs",
+              "ToolTip": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\CleanCode(SOLID)\\Program.cs",
+              "RelativeToolTip": "CleanCode(SOLID)\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T09:38:43.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

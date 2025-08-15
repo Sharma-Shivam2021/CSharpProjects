@@ -34,7 +34,7 @@ namespace CurrencyConverter_Online
 
         public async void GetDataFromAPI()
         {
-            val = await HttpRequesterForCurrencyData.GetData<Root>("https://openexchangerates.org/api/latest.json?app_id=6fddb5639e1440e29152092be3f64814");
+            val = await HttpRequesterForCurrencyData.GetData<Root>("https://openexchangerates.org/api/latest.json?app_id=OPEN_EXCHANGE_RATES_API");
             BindCurrency();
         }
 

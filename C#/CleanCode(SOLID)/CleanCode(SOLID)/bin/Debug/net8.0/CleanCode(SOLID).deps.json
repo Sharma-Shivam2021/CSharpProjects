@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CleanCode(SOLID)/1.0.0": {
+        "runtime": {
+          "CleanCode(SOLID).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanCode(SOLID)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

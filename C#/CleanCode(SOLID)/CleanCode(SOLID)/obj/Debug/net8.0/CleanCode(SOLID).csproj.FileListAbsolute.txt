@@ -1,0 +1,14 @@
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\bin\Debug\net8.0\CleanCode(SOLID).exe
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\bin\Debug\net8.0\CleanCode(SOLID).deps.json
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\bin\Debug\net8.0\CleanCode(SOLID).runtimeconfig.json
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\bin\Debug\net8.0\CleanCode(SOLID).dll
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\bin\Debug\net8.0\CleanCode(SOLID).pdb
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\CleanCode(SOLID).GeneratedMSBuildEditorConfig.editorconfig
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\CleanCode(SOLID).AssemblyInfoInputs.cache
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\CleanCode(SOLID).AssemblyInfo.cs
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\CleanCode(SOLID).csproj.CoreCompileInputs.cache
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\CleanCode(SOLID).dll
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\refint\CleanCode(SOLID).dll
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\CleanCode(SOLID).pdb
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\CleanCode(SOLID).genruntimeconfig.cache
+E:\HackerRankPracticeFile\CleanCode(SOLID)\CleanCode(SOLID)\obj\Debug\net8.0\ref\CleanCode(SOLID).dll
