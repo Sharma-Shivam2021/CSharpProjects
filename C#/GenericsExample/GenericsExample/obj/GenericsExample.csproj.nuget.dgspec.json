@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\HackerRankPracticeFile\\GenericsExample\\GenericsExample\\GenericsExample.csproj": {}
+    "E:\\C# Apps\\C#\\GenericsExample\\GenericsExample\\GenericsExample.csproj": {}
   },
   "projects": {
-    "E:\\HackerRankPracticeFile\\GenericsExample\\GenericsExample\\GenericsExample.csproj": {
+    "E:\\C# Apps\\C#\\GenericsExample\\GenericsExample\\GenericsExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HackerRankPracticeFile\\GenericsExample\\GenericsExample\\GenericsExample.csproj",
+        "projectUniqueName": "E:\\C# Apps\\C#\\GenericsExample\\GenericsExample\\GenericsExample.csproj",
         "projectName": "GenericsExample",
-        "projectPath": "E:\\HackerRankPracticeFile\\GenericsExample\\GenericsExample\\GenericsExample.csproj",
+        "projectPath": "E:\\C# Apps\\C#\\GenericsExample\\GenericsExample\\GenericsExample.csproj",
         "packagesPath": "C:\\Users\\91708\\.nuget\\packages\\",
-        "outputPath": "E:\\HackerRankPracticeFile\\GenericsExample\\GenericsExample\\obj\\",
+        "outputPath": "E:\\C# Apps\\C#\\GenericsExample\\GenericsExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

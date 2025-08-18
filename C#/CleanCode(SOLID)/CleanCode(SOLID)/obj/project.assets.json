@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\CleanCode(SOLID)\\CleanCode(SOLID).csproj",
+      "projectUniqueName": "E:\\C# Apps\\C#\\CleanCode(SOLID)\\CleanCode(SOLID)\\CleanCode(SOLID).csproj",
       "projectName": "CleanCode(SOLID)",
-      "projectPath": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\CleanCode(SOLID)\\CleanCode(SOLID).csproj",
+      "projectPath": "E:\\C# Apps\\C#\\CleanCode(SOLID)\\CleanCode(SOLID)\\CleanCode(SOLID).csproj",
       "packagesPath": "C:\\Users\\91708\\.nuget\\packages\\",
-      "outputPath": "E:\\HackerRankPracticeFile\\CleanCode(SOLID)\\CleanCode(SOLID)\\obj\\",
+      "outputPath": "E:\\C# Apps\\C#\\CleanCode(SOLID)\\CleanCode(SOLID)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

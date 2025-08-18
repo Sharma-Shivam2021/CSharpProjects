@@ -12,3 +12,18 @@ E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\refin
 E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.pdb
 E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.genruntimeconfig.cache
 E:\HackerRankPracticeFile\GenericsExample\GenericsExample\obj\Debug\net8.0\ref\GenericsExample.dll
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.AssemblyInfoInputs.cache
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.AssemblyInfo.cs
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.csproj.CoreCompileInputs.cache
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.sourcelink.json
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.dll
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\refint\GenericsExample.dll
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.pdb
+E:\C# Apps\C#\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.exe
+E:\C# Apps\C#\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.deps.json
+E:\C# Apps\C#\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.runtimeconfig.json
+E:\C# Apps\C#\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.dll
+E:\C# Apps\C#\GenericsExample\GenericsExample\bin\Debug\net8.0\GenericsExample.pdb
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\GenericsExample.genruntimeconfig.cache
+E:\C# Apps\C#\GenericsExample\GenericsExample\obj\Debug\net8.0\ref\GenericsExample.dll

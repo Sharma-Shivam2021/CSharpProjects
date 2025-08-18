@@ -1,11 +1,5 @@
 ﻿namespace GenericsExample;
 
-internal class Box<T>
+internal class Box<T> where T : class
 {
-    public T Content { get; set; }
-
-    public string Log()
-    {
-        return $"Box contains: {Content}";
-    }
 }
